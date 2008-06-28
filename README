@@ -1,0 +1,90 @@
+hitori
+------------------------------------------
+Hitori is a small application written to allow one to play the eponymous 
+puzzle game, which is similar in theme to more popular puzzles such as 
+Sudoku.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  glib2-2.16.3-1
+  gtk2-x11-2.12.10-1
+  libcairo2-1.6.4-1
+  libgnome2-2.22.0-1
+  libintl8-0.15-1
+  pango-1.20.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gettext-devel-0.15-1
+  gnome-common-2.20.0-2
+  gnome-doc-utils-0.12.2-1
+  intltool-0.37.1-1
+  libtool-2.2.2-2
+  make-3.81-1
+  pkg-config-0.21-1
+  rarian-0.8.0-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://tecnocode.co.uk/projects/hitori/
+
+Canonical download:
+  http://tecnocode.co.uk/downloads/
+
+-------------------------------------------
+
+Build instructions:
+  unpack hitori-0.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./hitori-0.2-X.cygport all
+
+This will create:
+  /usr/src/hitori-0.2-X-src.tar.bz2
+  /usr/src/hitori-0.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/hitori.sh
+  /usr/bin/hitori.exe
+  /usr/share/applications/hitori.desktop
+  /usr/share/doc/hitori-0.2/AUTHORS
+  /usr/share/doc/hitori-0.2/COPYING
+  /usr/share/doc/hitori-0.2/ChangeLog
+  /usr/share/doc/hitori-0.2/INSTALL
+  /usr/share/doc/hitori-0.2/NEWS
+  /usr/share/doc/hitori-0.2/README
+  /usr/share/gnome/help/hitori/C/figures/hitori_main_window.png
+  /usr/share/gnome/help/hitori/C/hitori.xml
+  /usr/share/gnome/help/hitori/C/legal.xml
+  /usr/share/gnome/help/hitori/en_GB/figures/hitori_main_window.png
+  /usr/share/gnome/help/hitori/en_GB/hitori.xml
+  /usr/share/gnome/help/hitori/en_GB/legal.xml
+  /usr/share/hitori/hitori.ui
+  /usr/share/icons/hicolor/16x16/apps/hitori.png
+  /usr/share/icons/hicolor/22x22/apps/hitori.png
+  /usr/share/icons/hicolor/32x32/apps/hitori.png
+  /usr/share/icons/hicolor/48x48/apps/hitori.png
+  /usr/share/locale/en_GB/LC_MESSAGES/hitori.mo
+  /usr/share/omf/hitori/hitori-C.omf
+  /usr/share/omf/hitori/hitori-en_GB.omf
+
+------------------
+
+Port Notes:
+
+----- version 0.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,6 @@
+category: Games
+requires: cygwin glib2 gtk2-x11 libcairo2 libgnome2 libintl8 pango
+sdesc: "GTK+ Hitori game"
+ldesc: "Hitori is a small application written to allow one to play the 
+eponymous puzzle game, which is similar in theme to more popular puzzles 
+such as Sudoku."
