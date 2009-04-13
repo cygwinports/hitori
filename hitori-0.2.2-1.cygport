@@ -1,0 +1,4 @@
+inherit gnome2
+
+DESCRIPTION="GTK+ Hitori game"
+HOMEPAGE="http://live.gnome.org/Hitori"

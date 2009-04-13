@@ -1,8 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="GTK+ Hitori game"
-HOMEPAGE="http://tecnocode.co.uk/projects/hitori/"
-SRC_URI="http://tecnocode.co.uk/downloads/${P}.tar.gz"
-
-# GtkBuilder
-LDFLAGS+=" -Wl,--export-all-symbols"

@@ -1,5 +1,5 @@
-category: Games
-requires: cygwin libcairo2 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0
+category: Games Gnome
+requires: cygwin libcairo2 libgcc1 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0
 sdesc: "GTK+ Hitori game"
 ldesc: "Hitori is a small application written to allow one to play the 
 eponymous puzzle game, which is similar in theme to more popular puzzles 
