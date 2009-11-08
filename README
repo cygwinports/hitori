@@ -5,30 +5,30 @@ puzzle game, which is similar in theme to more popular puzzles such as
 Sudoku.
 
 Runtime requirements:
-  cygwin-1.7.0-45
-  libcairo2-1.8.6-10
-  libgcc1-4.3.2-2
-  libglib2.0_0-2.20.0-1
-  libgtk2.0_0-2.16.0-1
-  libintl8-0.17-10
-  libpango1.0_0-1.24.0-1
+  cygwin-1.7.0-62
+  libcairo2-1.8.8-1
+  libgcc1-4.3.4-1
+  libglib2.0_0-2.22.2-1
+  libgtk2.0_0-2.18.3-1
+  libintl8-0.17-11
+  libpango1.0_0-1.26.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  gettext-devel-0.17-10
-  gnome-common-2.26.0-1
-  gnome-doc-utils-0.16.0-1
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  gettext-devel-0.17-11
+  gnome-common-2.28.0-1
+  gnome-doc-utils-0.18.0-1
   intltool-0.40.6-1
-  libtool-2.2.7a-12
+  libtool-2.2.7a-14
   make-3.81-2
-  pkg-config-0.23a-2
-  rarian-0.8.1-10
+  pkg-config-0.23b-10
+  rarian-0.8.1-11
   sed-4.1.5-2
 
 Canonical website:
@@ -40,59 +40,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack hitori-0.2.2-X-src.tar.bz2
+  unpack hitori-0.2.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./hitori-0.2.2-X.cygport all
+  cygport ./hitori-0.2.3-X.cygport all
 
 This will create:
-  /usr/src/hitori-0.2.2-X-src.tar.bz2
-  /usr/src/hitori-0.2.2-X.tar.bz2
+  /usr/src/hitori-0.2.3-X-src.tar.bz2
+  /usr/src/hitori-0.2.3-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/postinstall/hitori.sh
-  /usr/bin/hitori.exe
-  /usr/share/applications/hitori.desktop
-  /usr/share/doc/hitori/AUTHORS
-  /usr/share/doc/hitori/COPYING
-  /usr/share/doc/hitori/COPYING-DOCS
-  /usr/share/doc/hitori/ChangeLog
-  /usr/share/doc/hitori/NEWS
-  /usr/share/doc/hitori/README
-  /usr/share/gnome/help/hitori/C/figures/hitori_main_window.png
-  /usr/share/gnome/help/hitori/C/hitori.xml
-  /usr/share/gnome/help/hitori/C/legal.xml
-  /usr/share/gnome/help/hitori/de/figures/hitori_main_window.png
-  /usr/share/gnome/help/hitori/de/hitori.xml
-  /usr/share/gnome/help/hitori/de/legal.xml
-  /usr/share/gnome/help/hitori/en_GB/figures/hitori_main_window.png
-  /usr/share/gnome/help/hitori/en_GB/hitori.xml
-  /usr/share/gnome/help/hitori/en_GB/legal.xml
-  /usr/share/gnome/help/hitori/sv/figures/hitori_main_window.png
-  /usr/share/gnome/help/hitori/sv/hitori.xml
-  /usr/share/gnome/help/hitori/sv/legal.xml
-  /usr/share/hitori/hitori.ui
-  /usr/share/icons/hicolor/16x16/apps/hitori.png
-  /usr/share/icons/hicolor/22x22/apps/hitori.png
-  /usr/share/icons/hicolor/32x32/apps/hitori.png
-  /usr/share/icons/hicolor/48x48/apps/hitori.png
-  /usr/share/locale/de/LC_MESSAGES/hitori.mo
-  /usr/share/locale/en_GB/LC_MESSAGES/hitori.mo
-  /usr/share/locale/es/LC_MESSAGES/hitori.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/hitori.mo
-  /usr/share/locale/sv/LC_MESSAGES/hitori.mo
-  /usr/share/omf/hitori/hitori-C.omf
-  /usr/share/omf/hitori/hitori-de.omf
-  /usr/share/omf/hitori/hitori-en_GB.omf
-  /usr/share/omf/hitori/hitori-sv.omf
-
-------------------
-
 Port Notes:
+
+----- version 0.2.3-1 -----
+Version bump.
 
 ----- version 0.2.2-1 -----
 Initial release for Cygwin 1.7.
