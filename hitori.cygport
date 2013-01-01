@@ -1,0 +1,11 @@
+inherit gnome2
+
+NAME="hitori"
+VERSION=0.4.0
+RELEASE=1
+CATEGORY="Games GNOME"
+SUMMARY="GTK+ Hitori game"
+DESCRIPTION="Hitori is a small application written to allow one to play the
+eponymous puzzle game, which is similar in theme to more popular puzzles such
+as Sudoku."
+HOMEPAGE="http://live.gnome.org/Hitori"
